@@ -11,3 +11,14 @@
 @import "mixins/tabs";
 @import "mixins/navbars";
 
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+

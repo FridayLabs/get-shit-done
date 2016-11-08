@@ -1,6 +1,9 @@
 /*     General overwrite     */
 body{
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: "Open Sans", Arial,sans-serif;
+    font-size: $font-size-base;
+    line-height: 1.846;
+    color: #666666;
 }
 .main{
     background-color: #FFFFFF;
